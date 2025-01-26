@@ -1,4 +1,4 @@
-# Fae's Simple TMs: Port of SimpleTMs by Dragomordor
+# Fae's Simple TMs: Port of SimpleTMs (Fabric) by Dragomordor
 
 This Minecraft mod is an expansion to the Cobblemon mod, integrating TMs (Technical Machines) and TRs (Technical Records) from the Pokémon universe. The mod allows players to teach moves to their Pokémon, with either a TM or TR.
 
