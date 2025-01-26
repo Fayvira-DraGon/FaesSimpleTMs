@@ -47,10 +47,6 @@ This mod is licensed under the MIT liscense. Refer to the LICENSE file for more 
 
 Enjoy enhancing your Cobblemon experience with the added TMs and TRs!
 
-## Other mods
-Check out my other mods!
-- **Cobblemizer**: Allow players to manipulate various stats and aesthetic characteristics of Pokémon within the game. [Modrinth](https://modrinth.com/mod/cobblemizer) & [Curseforge](https://www.curseforge.com/minecraft/mc-mods/cobblemizer)
-
 ## Future development
 
 - I would like to add the ability to imprint tms as held items on Pokémon when a move is used, but I have to figure out how to do that first.
