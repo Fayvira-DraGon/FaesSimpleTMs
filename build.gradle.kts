@@ -5,8 +5,8 @@ plugins {
     kotlin("jvm") version "2.0.21"
 }
 
-group = "git.dragomordor.simpletms"
-version = "1.2.0-1.21.1"
+group = "${project.property("mod_group_id")}"
+version = "${project.property("mod_version")}"
 
 architectury {
     platformSetupLoomIde()
@@ -31,10 +31,10 @@ repositories {
 dependencies {
     minecraft("net.minecraft:minecraft:${project.property("minecraft_version")}")
     mappings("net.fabricmc:yarn:${project.property("yarn_mappings")}")
-    modImplementation("net.fabricmc:fabric-loader:${project.property("loader_version")}")
+    modImplementation("net.fabricmc:fabric-loader:${project.property("fabric_loader_version")}")
 
-    modRuntimeOnly("net.fabricmc.fabric-api:fabric-api:${project.property("fabric_version")}")
-    modImplementation(fabricApi.module("fabric-command-api-v2", "${project.property("fabric_version")}"))
+    modRuntimeOnly("net.fabricmc.fabric-api:fabric-api:${project.property("fabric_api_version")}")
+    modImplementation(fabricApi.module("${project.property("fabric_command_api_version")}", "${project.property("fabric_api_version")}"))
 
     modImplementation("net.fabricmc:fabric-language-kotlin:${project.property("kotlin_version")}")
     modImplementation("com.cobblemon:fabric:${project.property("cobblemon_version")}")

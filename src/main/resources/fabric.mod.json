@@ -1,14 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "faessimpletms",
+  "id": "${mod_id}",
   "version": "${version}",
-  "name": "Fae's Simple TMs",
-  "description": "This Minecraft mod is an expansion to the Cobblemon mod, integrating TMs (Technical Machines) and TRs (Technical Records) from the Pokémon universe. The mod allows players to teach moves to their Pokémon, with either a TM or TR.",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
   "authors": [
-    "Dragomordor",
-    "Fayvira-DraGon"
+    "${mod_authors}"
   ],
-  "license": "MIT License",
+  "contributors": [
+    "${mod_credits}"
+  ],
+  "contact": {
+    "homepage": "${mod_homepage}",
+    "sources": "${mod_github}"
+  },
+  "license": "${mod_license}",
   "icon": "assets/simpletms/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -17,7 +23,9 @@
     ]
   },
   "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": "*",
     "minecraft": "${minecraft_version}",
-    "cobblemon": ">=${cobblemon_version}"
+    "cobblemon": "${cobblemon_version}"
   }
 }
